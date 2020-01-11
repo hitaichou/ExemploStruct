@@ -6,6 +6,7 @@ namespace ExemploStruct
     {
         static void Main(string[] args)
         {
+            //Declarando tipo de valor
             Point p;
 
             p.X = 10;
@@ -13,6 +14,7 @@ namespace ExemploStruct
 
             Console.WriteLine(p);
 
+            //Tipo de valor struct também aceita instancia
             p = new Point();
             Console.WriteLine(p);
         }
